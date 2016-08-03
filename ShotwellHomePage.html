@@ -7,10 +7,12 @@
     <title>SHOTWELL BOYS | Official Site</title>
     
 </head>
+
 <style>
 body {
     font-family:"Oswald", san-serif;
-    font-size: 40px;
+    font-size: 36px;
+    color:#000000;
     }
 
 img{
@@ -18,19 +20,11 @@ img{
     height:auto;
 }
 
-}
 #header {
     background-color:#FFFFFF;
     color:#000000
     text-align:center;
     padding:5px;
-}
-
-#nav {
-    background-color:#FFFFFF;
-    color:#000000
-    text-align:center;
-    line-height:30px;
 }
 
 #footer {
@@ -39,16 +33,82 @@ img{
     clear:both;
     text-align:center;
     font-size:14px;
+    padding: 10px;
 }
+
+h1 {
+    text-align:left;
+    font-size:100%;
+}
+
+h2 {
+    font-size:30px;
+}
+
+h4 {
+    text-align:center;
+    font-size: 100%;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    height: auto;
+    width: 25%;
+    float:left;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    float: left;
+}
+
 </style>
 
 <body>
-<!--CENTER IMAGE-->
+<!-- MAIN HEADER -->
+<div id="header">
+    <h1>SHOTWELL BOYS</h1>
+</div>
+
+<!-- CENTER IMAGE -->
 <picture>
      <p><center><img src="img/housing.JPG" alt="Housing"></center></p>
 </picture>
 
+<!-- MEET THE BOYS -->
+<p><h3><center>MEET THE BOYS</center></h3></p>
 
+<!-- ID CARD -->
+<div class="card">
+    <img src="img/allen.jpg" alt="Allen" style="width:100%">
+            <h4>
+                <center><a href="allen.html"><b>ALLEN</b></center>
+            </h4>
+</div>
+
+<div class="card">
+    <img src="img/brian.jpg" alt="Brian" style="width:100%">
+            <h4>
+                <center><a href="brian.html"><b>BRIAN</b></center>
+            </h4>
+</div>
+
+<div class="card">
+    <img src="img/otto.jpg" alt="Otto" style="width:100%">
+        <h4>
+            <center><a href="otto.html"><b>OTTO</b></center>
+        </h4>
+</div>
+
+<div class="card">
+    <img src="img/owen.jpg" alt="Owen" style="width:100%">
+        <h4>
+            <center><a href="Owen.html"><b>OWEN</b></a></center>
+        </h4>
+</div>
+
+<div class="clear"></div> <!--clear any floating applied by cards-->
+<!-- FOOTER -->
 <div id="footer">
     &copy; 2016 SHOTWELL BOYS | All Rights Reserved
 </div>
