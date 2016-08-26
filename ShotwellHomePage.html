@@ -22,33 +22,46 @@ img{
 
 #header {
     background-color:#FFFFFF;
-    color:#000000
     text-align:center;
     padding:5px;
+    display: inline-block;
+    font-size: 60px;
+}
+
+#nav {
+    line-height:30px;
+    background-color:#FFFFFF;
+    text-align:center;
+    display: inline-block;
+    font-size: 30px;
 }
 
 #footer {
     background-color:#FFFFFF;
-    color:#000000
     clear:both;
     text-align:center;
-    font-size:14px;
+    font-size:16px;
     padding: 10px;
 }
 
 h1 {
     text-align:left;
     font-size:100%;
+    margin-top: 10px;
 }
 
 h2 {
     font-size:30px;
 }
 
+h3 {
+    font-size:40px;
+}
 h4 {
     text-align:center;
     font-size: 100%;
 }
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
@@ -66,8 +79,18 @@ h4 {
 
 <body>
 <!-- MAIN HEADER -->
+<div>
 <div id="header">
-    <h1>SHOTWELL BOYS</h1>
+    <h1>SHOTWELL BOYS</h1> 
+</div>
+
+<!--NAVIGATION BAR-->
+<div id="nav">
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 
+    <a href="BistroShotwell.html">BISTRO SHOTWELL</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="ShotwellLife.html">SHOTWELL LIFE</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <a href="contact.html">CONTACT US</a>
+</div>
 </div>
 
 <!-- CENTER IMAGE -->
@@ -79,24 +102,25 @@ h4 {
 <p><h3><center>MEET THE BOYS</center></h3></p>
 
 <!-- ID CARD -->
+<div>
 <div class="card">
     <img src="img/allen.jpg" alt="Allen" style="width:100%">
             <h4>
-                <center><a href="allen.html"><b>ALLEN</b></center>
+                <center><a href="allen.html"><b>ALLEN</b></a></center>
             </h4>
 </div>
 
 <div class="card">
     <img src="img/brian.jpg" alt="Brian" style="width:100%">
             <h4>
-                <center><a href="brian.html"><b>BRIAN</b></center>
+                <center><a href="brian.html"><b>BRIAN</b></a></center>
             </h4>
 </div>
 
 <div class="card">
     <img src="img/otto.jpg" alt="Otto" style="width:100%">
         <h4>
-            <center><a href="otto.html"><b>OTTO</b></center>
+            <center><a href="otto.html"><b>OTTO</b></a></center>
         </h4>
 </div>
 
@@ -108,11 +132,13 @@ h4 {
 </div>
 
 <div class="clear"></div> <!--clear any floating applied by cards-->
+
 <!-- FOOTER -->
 <div id="footer">
     &copy; 2016 SHOTWELL BOYS | All Rights Reserved
 </div>
- 
+</div>
+
 </body>
 </html>
 
